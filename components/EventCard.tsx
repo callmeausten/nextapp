@@ -8,7 +8,7 @@ interface Props{
     slug: string,
     location: string,
     date: string,
-    time: string
+    time: string,
 }
 
 export default function EventCard({title, image, slug, location, date, time}: Props){
